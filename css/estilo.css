@@ -1,0 +1,147 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 202, 244);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+.contenedor {
+  width: 80%;
+  /* Ancho deseado del contenedor centrado */
+  margin: 0 auto;
+  /* Centra horizontalmente el contenedor */
+  padding: 20px;
+  /* Añade espacio de relleno alrededor del contenido si es necesario */
+  background-color: white;
+  /* Color de fondo del contenedor */
+}
+
+#carousel {
+  max-width: 800px;
+  margin: 0 auto;
+  /* Centra el carrusel en la página */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  /* Cambia la posición de manera absoluta */
+  position: absolute;
+  top: 50%;
+  /* Alinea verticalmente al centro */
+  transform: translateY(-50%);
+  /* Ajusta verticalmente en función del tamaño del botón */
+}
+
+/* Ajusta el espacio entre los botones y los bordes */
+.carousel-control-prev {
+  left: 300px;
+  /* Cambia la posición izquierda */
+  background-size: 15px 15px;
+  /* Cambia el tamaño del ícono */
+  width: 30px;
+  /* Cambia el ancho del ícono */
+  height: 30px;
+  /* Cambia la altura del ícono */
+}
+
+.carousel-control-next {
+  right: 300px;
+  /* Cambia la posición derecha */
+  background-size: 15px 15px;
+  /* Cambia el tamaño del ícono */
+  width: 30px;
+  /* Cambia el ancho del ícono */
+  height: 30px;
+  /* Cambia la altura del ícono */
+}
+
+.sticky {
+  position: fixed;
+  z-index: -100;
+}
+.copyright {
+  text-align: center;
+  color: rgb(173, 103, 239);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.tituloprincipal {
+  text-shadow: 10px;
+  border-radius: 80%;
+  background-color: rgb(255, 176, 221);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(82, 78, 78);
+  shape-rendering: geometricPrecision;
+  font-weight: 200;
+}
+.fotoconamor{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+}
+.claseservicios{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(177, 226, 255);
+  border-radius: 50%;
+  text-align: center;
+}
+.claseservicios:hover{
+  background-color: rgb(216, 173, 255);
+}
+
+.clasecontacto{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(177, 226, 255);
+  border-radius: 50%;
+  text-align: center;
+}
+.clasecontacto:hover{
+  background-color: rgb(216, 173, 255);
+}
+.carousel-control-prev{
+background-color: rgb(241, 164, 255);
+align-items: left;
+}
+.carousel-control-next{
+  background-color: rgb(241, 164, 255);
+}
+
+@media (max-width: 768px) {
+  .carousel-control-prev,
+.carousel-control-next {
+  /* Cambia la posición de manera absoluta */
+  position: absolute;
+  top: 50%;
+  /* Alinea verticalmente al centro */
+  transform: translateY(-50%);
+  /* Ajusta verticalmente en función del tamaño del botón */
+}
+
+/* Ajusta el espacio entre los botones y los bordes */
+.carousel-control-prev {
+  left: 35px;
+  /* Cambia la posición izquierda */
+  background-size: 15px 15px;
+  /* Cambia el tamaño del ícono */
+  width: 15px;
+  /* Cambia el ancho del ícono */
+  height: 15px;
+  /* Cambia la altura del ícono */
+}
+
+.carousel-control-next {
+  right: 35px;
+  /* Cambia la posición derecha */
+  background-size: 15px 15px;
+  /* Cambia el tamaño del ícono */
+  width: 15px;
+  /* Cambia el ancho del ícono */
+  height: 15px;
+  /* Cambia la altura del ícono */
+}
+}
